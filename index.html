@@ -2,63 +2,95 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta
     name="description"
     content="An interactive timeline exploring Intel's technology and sustainability journey from 1968 through 2026."
-  />
+  >
 
-  <title>Intel: Sustainability Through the Ages</title>
+  <title>Intel | Sustainability Through the Ages</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- HERO SECTION -->
-  <header>
+  <!-- HERO -->
+  <header class="hero">
+
     <div class="hero-content">
 
       <img
+        class="intel-logo"
         src="img/intel-header-logo.svg"
         alt="Intel logo"
-      />
+      >
 
-      <h1>Sustainability Through the Ages</h1>
+      <p class="eyebrow">Innovation • Technology • Sustainability</p>
 
-      <p>
-        Explore Intel's journey through time, discovering how its commitment
-        to innovation has shaped a more sustainable future for technology
-        and our planet.
+      <h1>
+        Sustainability
+        <span>Through the Ages</span>
+      </h1>
+
+      <p class="hero-description">
+        Explore Intel's journey through time and discover how decades of
+        technological innovation have evolved alongside a growing commitment
+        to a more sustainable future.
       </p>
 
+      <a class="explore-link" href="#timeline">
+        Explore the timeline
+        <span aria-hidden="true">→</span>
+      </a>
+
     </div>
+
   </header>
 
 
   <!-- MAIN CONTENT -->
   <main>
 
+    <!-- SECTION INTRO -->
+    <section class="timeline-intro">
+
+      <div>
+        <p class="section-label">1968 — 2026</p>
+        <h2>Milestones that shaped the journey</h2>
+      </div>
+
+      <p>
+        From the beginning of Intel to modern sustainability commitments,
+        explore key moments in technology and environmental progress.
+      </p>
+
+    </section>
+
+
     <!-- TIMELINE -->
     <section
       class="timeline"
+      id="timeline"
       aria-label="Intel sustainability and technology timeline"
     >
 
       <!-- 1968 -->
-      <article class="timeline-card">
+      <article class="timeline-card" tabindex="0">
 
         <div class="card-content">
-          <h2>1968</h2>
+          <span class="year">1968</span>
           <h3>Intel Founded</h3>
         </div>
 
-        <img
-          src="https://images.unsplash.com/photo-1518770660439-4636190af475"
-          alt="Close-up of computer circuitry"
-        />
+        <div class="image-wrapper">
+          <img
+            src="img/intel-1968-founded.png"
+            alt="AI-generated illustration representing Intel's founding in 1968"
+          >
+        </div>
 
         <div class="card-details">
           <p>
@@ -72,23 +104,25 @@
 
 
       <!-- 1971 -->
-      <article class="timeline-card">
+      <article class="timeline-card" tabindex="0">
 
         <div class="card-content">
-          <h2>1971</h2>
+          <span class="year">1971</span>
           <h3>First Microprocessor</h3>
         </div>
 
-        <img
-          src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea"
-          alt="Computer processor"
-        />
+        <div class="image-wrapper">
+          <img
+            src="img/intel-1971-microprocessor.png"
+            alt="AI-generated illustration representing an early microprocessor"
+          >
+        </div>
 
         <div class="card-details">
           <p>
             Intel debuts the 4004, the world's first commercial
-            microprocessor, igniting the microprocessor revolution and
-            propelling the future of computing devices.
+            microprocessor, helping ignite the microprocessor revolution
+            and the future of computing devices.
           </p>
         </div>
 
@@ -96,23 +130,25 @@
 
 
       <!-- 1978 -->
-      <article class="timeline-card">
+      <article class="timeline-card" tabindex="0">
 
         <div class="card-content">
-          <h2>1978</h2>
+          <span class="year">1978</span>
           <h3>8086 Processor</h3>
         </div>
 
-        <img
-          src="https://images.unsplash.com/photo-1555617981-dac3880eac6e"
-          alt="Electronic processor and circuit board"
-        />
+        <div class="image-wrapper">
+          <img
+            src="img/intel-1978-8086.png"
+            alt="AI-generated illustration representing late-1970s processor technology"
+          >
+        </div>
 
         <div class="card-details">
           <p>
             Intel launches the 8086 processor, establishing the x86
-            architecture that drives countless PCs and servers in the
-            modern era.
+            architecture that would influence generations of personal
+            computers and servers.
           </p>
         </div>
 
@@ -120,17 +156,19 @@
 
 
       <!-- 1985 -->
-      <article class="timeline-card">
+      <article class="timeline-card" tabindex="0">
 
         <div class="card-content">
-          <h2>1985</h2>
+          <span class="year">1985</span>
           <h3>386 Processor</h3>
         </div>
 
-        <img
-          src="https://images.unsplash.com/photo-1563770660941-20978e870e26"
-          alt="Computer hardware and electronic components"
-        />
+        <div class="image-wrapper">
+          <img
+            src="img/intel-1985-386.png"
+            alt="AI-generated illustration representing 1980s personal computing"
+          >
+        </div>
 
         <div class="card-details">
           <p>
@@ -144,24 +182,25 @@
 
 
       <!-- 2006 -->
-      <article class="timeline-card">
+      <article class="timeline-card" tabindex="0">
 
         <div class="card-content">
-          <h2>2006</h2>
+          <span class="year">2006</span>
           <h3>Peak GHG Emissions</h3>
         </div>
 
-        <img
-          src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9"
-          alt="Industrial facility representing energy use and emissions"
-        />
+        <div class="image-wrapper">
+          <img
+            src="img/intel-2006-emissions.png"
+            alt="AI-generated illustration representing industrial emissions"
+          >
+        </div>
 
         <div class="card-details">
           <p>
             This year marks Intel's highest annual greenhouse gas emissions
-            for operations. Over subsequent years, Intel invests heavily in
-            chemical abatement, renewable energy, and energy-efficient
-            manufacturing to reverse this trend.
+            for operations. In subsequent years, Intel invests in chemical
+            abatement, renewable energy, and energy-efficient manufacturing.
           </p>
         </div>
 
@@ -169,17 +208,19 @@
 
 
       <!-- 2020 -->
-      <article class="timeline-card">
+      <article class="timeline-card" tabindex="0">
 
         <div class="card-content">
-          <h2>2020</h2>
+          <span class="year">2020</span>
           <h3>RISE Strategy</h3>
         </div>
 
-        <img
-          src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e"
-          alt="Renewable energy infrastructure"
-        />
+        <div class="image-wrapper">
+          <img
+            src="img/intel-2020-rise.png"
+            alt="AI-generated illustration representing technology and sustainability"
+          >
+        </div>
 
         <div class="card-details">
           <p>
@@ -193,17 +234,19 @@
 
 
       <!-- 2022 -->
-      <article class="timeline-card">
+      <article class="timeline-card" tabindex="0">
 
         <div class="card-content">
-          <h2>2022</h2>
-          <h3>Net-Zero By 2040</h3>
+          <span class="year">2022</span>
+          <h3>Net-Zero by 2040</h3>
         </div>
 
-        <img
-          src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d"
-          alt="Solar panels representing clean energy"
-        />
+        <div class="image-wrapper">
+          <img
+            src="img/intel-2022-net-zero.png"
+            alt="AI-generated illustration representing renewable energy and net-zero goals"
+          >
+        </div>
 
         <div class="card-details">
           <p>
@@ -217,23 +260,25 @@
 
 
       <!-- 2023 -->
-      <article class="timeline-card">
+      <article class="timeline-card" tabindex="0">
 
         <div class="card-content">
-          <h2>2023</h2>
+          <span class="year">2023</span>
           <h3>Renewable Electricity</h3>
         </div>
 
-        <img
-          src="https://images.unsplash.com/photo-1466611653911-95081537e5b7"
-          alt="Wind turbines generating renewable electricity"
-        />
+        <div class="image-wrapper">
+          <img
+            src="img/intel-2023-renewable.png"
+            alt="AI-generated illustration representing renewable electricity"
+          >
+        </div>
 
         <div class="card-details">
           <p>
             Intel reaches 99% renewable electricity usage worldwide,
-            reducing operational carbon emissions and making progress
-            toward its long-term sustainability goals.
+            reducing operational carbon emissions and progressing toward
+            its long-term sustainability goals.
           </p>
         </div>
 
@@ -241,17 +286,19 @@
 
 
       <!-- 2024 -->
-      <article class="timeline-card">
+      <article class="timeline-card" tabindex="0">
 
         <div class="card-content">
-          <h2>2024</h2>
+          <span class="year">2024</span>
           <h3>Sustainability Summit</h3>
         </div>
 
-        <img
-          src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678"
-          alt="Professional conference representing a sustainability summit"
-        />
+        <div class="image-wrapper">
+          <img
+            src="img/intel-2024-summit.png"
+            alt="AI-generated illustration representing a technology sustainability summit"
+          >
+        </div>
 
         <div class="card-details">
           <p>
@@ -265,23 +312,25 @@
 
 
       <!-- 2025 -->
-      <article class="timeline-card">
+      <article class="timeline-card" tabindex="0">
 
         <div class="card-content">
-          <h2>2025</h2>
+          <span class="year">2025</span>
           <h3>Sustainability Progress</h3>
         </div>
 
-        <img
-          src="https://images.unsplash.com/photo-1509391366360-2e959784a276"
-          alt="Solar panels representing renewable energy progress"
-        />
+        <div class="image-wrapper">
+          <img
+            src="img/intel-2025-progress.png"
+            alt="AI-generated illustration representing water conservation and sustainable manufacturing"
+          >
+        </div>
 
         <div class="card-details">
           <p>
-            Intel reports 99% renewable electricity globally, approximately
-            11.2 billion gallons of water conserved, and about 3% of total
-            waste sent to landfill as sustainability efforts continue.
+            Intel reports continued progress in renewable electricity,
+            water conservation, waste reduction, and cleaner manufacturing
+            as its sustainability efforts continue.
           </p>
         </div>
 
@@ -289,23 +338,25 @@
 
 
       <!-- 2026 -->
-      <article class="timeline-card">
+      <article class="timeline-card" tabindex="0">
 
         <div class="card-content">
-          <h2>2026</h2>
+          <span class="year">2026</span>
           <h3>Building Toward 2030</h3>
         </div>
 
-        <img
-          src="https://images.unsplash.com/photo-1497366754035-f200968a6e72"
-          alt="Modern technology workplace representing future sustainability goals"
-        />
+        <div class="image-wrapper">
+          <img
+            src="img/intel-2026-2030.png"
+            alt="AI-generated illustration representing a future sustainable technology campus"
+          >
+        </div>
 
         <div class="card-details">
           <p>
-            Intel continues working toward goals including 100% renewable
-            electricity, net-positive water, and zero waste to landfill by
-            2030, alongside its longer-term net-zero emissions commitment.
+            Intel continues working toward its 2030 sustainability goals
+            while pursuing its longer-term commitment to net-zero
+            greenhouse gas emissions across global operations.
           </p>
         </div>
 
@@ -314,12 +365,48 @@
     </section>
 
 
-    <!-- TIMELINE INSTRUCTIONS -->
-    <p class="timeline-instruction">
-      Scroll to explore the timeline | Hover over a card to learn more
-    </p>
+    <!-- TIMELINE GUIDE -->
+    <div class="timeline-guide">
+
+      <span class="guide-line"></span>
+
+      <p>
+        Scroll to explore
+        <span aria-hidden="true">→</span>
+        Hover or focus on a milestone to learn more
+      </p>
+
+      <span class="guide-line"></span>
+
+    </div>
+
+
+    <!-- CLOSING SECTION -->
+    <section class="closing">
+
+      <p class="section-label">Looking Forward</p>
+
+      <h2>Innovation doesn't stop here.</h2>
+
+      <p>
+        Intel's timeline continues beyond these milestones as technology,
+        manufacturing, and sustainability goals evolve together.
+      </p>
+
+    </section>
 
   </main>
+
+
+  <footer>
+    <p>
+      Intel Sustainability Timeline • Educational Project
+    </p>
+
+    <p class="ai-note">
+      Custom milestone visuals were created with generative AI.
+    </p>
+  </footer>
 
 </body>
 
