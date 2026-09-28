@@ -47,17 +47,13 @@ img {
   text-align: left;
 
   background:
-    radial-gradient(
-      circle at 85% 25%,
+    radial-gradient(circle at 85% 25%,
       rgba(0, 199, 253, 0.22),
-      transparent 28%
-    ),
-    linear-gradient(
-      125deg,
+      transparent 28%),
+    linear-gradient(125deg,
       #00285a 0%,
       #004a86 48%,
-      #0068b5 100%
-    );
+      #0068b5 100%);
 }
 
 .hero::after {
@@ -223,7 +219,7 @@ img {
   text-align: left;
 }
 
-.timeline-intro > p {
+.timeline-intro>p {
   max-width: 460px;
 
   margin: 0;
@@ -452,12 +448,10 @@ img {
   text-align: left;
 
   background:
-    linear-gradient(
-      to top,
+    linear-gradient(to top,
       rgba(0, 24, 50, 0.97) 0%,
       rgba(0, 35, 70, 0.88) 48%,
-      rgba(0, 44, 82, 0.28) 100%
-    );
+      rgba(0, 44, 82, 0.28) 100%);
 
   opacity: 0;
   visibility: hidden;
@@ -568,7 +562,7 @@ img {
   text-align: center;
 }
 
-.closing > p:last-child {
+.closing>p:last-child {
   max-width: 600px;
 
   margin: 0 auto;
@@ -656,7 +650,7 @@ footer p {
     text-align: left;
   }
 
-  .timeline-intro > p {
+  .timeline-intro>p {
     margin-top: 18px;
 
     text-align: left;
